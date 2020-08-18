@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  background-color: #483586;
+}
+.header-links {
+  margin-top: 30px;
+}
+
+.App-logo {
+  margin-left: 20px;
+}
+
+.AR-Window {
+  background-color: #0e94c7;
+}
+.Welcome {
+}
+.CallToAction {
+  background-color: #a4ce52;
+}
+.WhatIsSMP {
+  background-color: #eba23c;
+}
+
+.WhatSMPCanFix {
+  background-color: #de0f77;
+}
+.Fixes {
+  border: solid;
+  border-radius: 20%;
+}
+
+.Reviews {
+  background-color: #0e94c7;
+}
+
+.BookAConsultation {
+  background-color: #a4ce52;
+}
+.FAQS1 {
+  background-color: #eba23c;
+}
+
+.FAQS2 {
+  background-color: #de0f77;
+}
+.Contact-Us {
+  background-color: #0e94c7;
+}
+
+.Map {
+  background-color: #a4ce52;
+}
+
+.Footer {
+  background-color: #de0f77;
+}
+.Socials {
+  width: 20px;
+  height: 20px;
+  border-radius: 15%;
+}
