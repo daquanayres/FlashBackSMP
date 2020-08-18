@@ -9,7 +9,7 @@ function Header() {
         justify
         variant="tabs"
         className="justify-content-center"
-        defaultActiveKey="/home"
+        defaultActnmiveKey="/home"
       >
         <Nav.Link href="/logo">
           <img src={logo} className="header-Logo" alt="logo" />

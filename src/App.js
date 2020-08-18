@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "./FlashBackSMP200x100.png";
 import Header from "./Header.js";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 //import './App.css';
 
