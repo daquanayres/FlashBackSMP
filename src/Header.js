@@ -7,9 +7,9 @@ function Header() {
     <header className="App-header">
       <Nav
         justify
-        variant="tabs"
+        variant="pills"
         className="justify-content-center"
-        defaultActnmiveKey="/home"
+        defaultActiveKey="/home"
       >
         <Nav.Link href="/logo">
           <img src={logo} className="header-Logo" alt="logo" />
