@@ -14,9 +14,6 @@ code {
 .App {
   background-color: #483586;
 }
-.header-links {
-  margin-top: 30px;
-}
 
 .App-logo {
   margin-left: 20px;
@@ -49,12 +46,13 @@ code {
 .BookAConsultation {
   background-color: #a4ce52;
 }
+
 .FAQS1 {
-  background-color: #eba23c;
+  background-color: #eba23c !important;
 }
 
 .FAQS2 {
-  background-color: #de0f77;
+  background-color: #de0f77 !important;
 }
 .Contact-Us {
   background-color: #0e94c7;
