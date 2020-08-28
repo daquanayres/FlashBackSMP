@@ -16,13 +16,17 @@ code {
 }
 
 .App-logo {
-  margin-left: 20px;
 }
 
 .AR-Window {
   background-color: #0e94c7;
 }
 .Welcome {
+}
+.welcome-group {
+  text-align: center;
+  margin-top: 200px;
+  height: 200px;
 }
 .CallToAction {
   background-color: #a4ce52;
@@ -69,4 +73,43 @@ code {
   width: 20px;
   height: 20px;
   border-radius: 15%;
+}
+.header-links {
+  font-size: 26px;
+  margin-left: 50px;
+  margin-right: auto;
+  color: #a4ce52 !important;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: ;
+}
+
+.header-links:hover {
+  color: #de0f77 !important;
+}
+
+.App-header {
+  z-index: 1;
+}
+.AR-Window {
+  z-index: 2;
+  height: 400px;
+}
+
+.ar-text {
+  margin-left: 160px;
+}
+.AR-Button {
+  margin-left: 350px;
+}
+
+.AR-Col-1 {
+  margin-bottom: 300px;
+  margin-left: 100px;
+}
+.AR-Col-2 {
+  margin-top: 250px;
+  margin-left: 100px;
+}
+.AR-heading {
+  margin-left: 250px;
 }

@@ -1,22 +1,28 @@
 import logo from "./FlashBackSMP200x100.png";
 import React from "react";
 import { Col, Container, Row, Nav, Navbar } from "react-bootstrap";
+import AR_trySMP from "./AR_trySMP.js";
 
 function Header() {
   return (
-    <Container Fluid>
-      <Navbar bg="dark" variant="dark" expand="lg" className="App-header">
+    <Container fluid className="">
+      <Navbar
+        bg="transparent"
+        variant="dark"
+        expand="xl"
+        className="App-header"
+      >
         <Navbar.Brand href="#home">
           <Nav.Link href="/logo">
             <img
               src={logo}
-              className="header-Logo d-inline-block align-top"
+              className="header-Logo  align-top header-links"
               alt="logo"
             />
           </Nav.Link>
         </Navbar.Brand>
 
-        <Nav variant="pills" defaultActiveKey="/home">
+        <Nav defaultActiveKey="/home">
           <Nav.Item>
             <Nav.Link className="header-links" href="/home">
               Home
@@ -54,6 +60,7 @@ function Header() {
           </Nav.Item>
         </Nav>
       </Navbar>
+      <AR_trySMP />
     </Container>
   );
 }

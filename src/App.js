@@ -3,6 +3,7 @@ import logo from "./FlashBackSMP200x100.png";
 import Header from "./Header.js";
 import Welcome from "./Welcome.js";
 import FAQs from "./FAQs.js";
+import AR_trySMP from "./AR_trySMP.js";
 //import './App.css';
 
 function App() {
@@ -10,11 +11,8 @@ function App() {
     <div className="App">
       <Header />
 
-      <div className="AR-Window">
-        <h4>Take a look for yourself. </h4>
-        <h4>Try Our SMP AR Filter! </h4>
-      </div>
       <Welcome />
+
       <div className="CallToAction">
         <h2>Step back into your prime</h2>
         <p>

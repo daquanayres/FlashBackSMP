@@ -3,8 +3,8 @@ import { Accordion, Card, Container } from "react-bootstrap";
 
 function FAQs() {
   return (
-    <Container className="FAQS" fluid>
-      <h3> FAQS</h3>
+    <Container fluid>
+      <h3 className="FAQS"> FAQS</h3>
       <Accordion>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="0" className="FAQS1">
