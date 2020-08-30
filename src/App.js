@@ -3,46 +3,28 @@ import logo from "./FlashBackSMP200x100.png";
 import Header from "./Header.js";
 import Welcome from "./Welcome.js";
 import FAQs from "./FAQs.js";
-import AR_trySMP from "./AR_trySMP.js";
+import WhatSMPCanFix from "./WhatSMPCanFix.js";
 //import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
-
       <Welcome />
-
-      <div className="CallToAction">
-        <h2>Step back into your prime</h2>
-        <p>
-          With Scalp Micropigmentation. A permanent hair loss treatment for both
-          women and men.
-        </p>
-        <button class="Schedule-Btn">Schedule A Consultation</button>
-      </div>
 
       <div className="WhatIsSMP">
         <h2 className="WhatIsSMP-Title">What is Scalp Micropigmentation?</h2>
         <p>
           Scalp Micropigmentation or SMP is a revised form of tattooing that is
-          applied to the scalp to give the illusion of hair follicles.<br></br>
-          <br></br>
+          applied to the scalp to give the illusion of hair follicles.
+        </p>
+        <p>
           An Organic, plant-based pigment is used to mimic the look of hair"
           follicles. Clients who have experienced all types of hair loss, are a
           given instant results; presenting a younger appearance.
         </p>
       </div>
-      <div className="WhatSMPCanFix">
-        <h2>What SMP Can Fix </h2>
-        <img src="" className="Fixes" Alt="Thinning Hair" />
-        <img src="" className="Fixes" Alt="Pattern Baldness" />
-        <img src="" className="Fixes" Alt="Hair Loss" />
-        <img src="" className="Fixes" Alt="Scar Camouflage" />
-        <br></br>
-        <br></br>
-        <button className="Dig Deeper">Dig Deeper</button>
-      </div>
+      <WhatSMPCanFix />
       <div className="Reviews">
         <div>
           <h2>Verified Google Reviews</h2>

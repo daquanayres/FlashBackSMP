@@ -21,12 +21,12 @@ code {
 .AR-Window {
   background-color: #0e94c7;
 }
-.Welcome {
+.welcome-jumbotron {
+  background-color: #a4ce52 !important;
 }
 .welcome-group {
   text-align: center;
-  margin-top: 200px;
-  height: 200px;
+  margin-top: 250px;
 }
 .CallToAction {
   background-color: #a4ce52;
@@ -35,8 +35,8 @@ code {
   background-color: #eba23c;
 }
 
-.WhatSMPCanFix {
-  background-color: #de0f77;
+.WhatSMPCanFix-css {
+  background-color: #de0f77 !important  ;
 }
 .Fixes {
   border: solid;
@@ -111,5 +111,5 @@ code {
   margin-left: 100px;
 }
 .AR-heading {
-  margin-left: 250px;
+  margin-left: 190px;
 }
