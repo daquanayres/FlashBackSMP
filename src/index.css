@@ -33,10 +33,29 @@ code {
 }
 .WhatIsSMP {
   background-color: #eba23c;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.cards {
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
+.Card-Title .Card-IMGs {
+  display: flex !important;
+  justify-content: center !important;
+}
+.WhatSMPCanFix-heading {
+  display: flex !important;
+  justify-content: center !important;
+}
+.WhatSMPCanFix-button {
+  margin-left: 740px;
+}
 .WhatSMPCanFix-css {
-  background-color: #de0f77 !important  ;
+  background-color: #de0f77;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
 }
 .Fixes {
   border: solid;

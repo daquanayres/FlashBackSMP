@@ -1,7 +1,6 @@
 import logo from "./FlashBackSMP200x100.png";
 import React from "react";
 import { Col, Container, Row, Nav, Navbar } from "react-bootstrap";
-import AR_trySMP from "./AR_trySMP.js";
 
 function Header() {
   return (
@@ -60,7 +59,6 @@ function Header() {
           </Nav.Item>
         </Nav>
       </Navbar>
-      <AR_trySMP />
     </Container>
   );
 }

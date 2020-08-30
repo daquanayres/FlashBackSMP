@@ -3,9 +3,10 @@ import { Col, Row, Container, Button } from "react-bootstrap";
 
 function AR_trySMP() {
   return (
-    <Container fluid className="AR-Window">
+    <Container fluid className="AR-Window ">
       <Row>
-        <Col fluid>
+        <Col></Col>
+        <Col fluid className="">
           <div className=" AR-Col-2">
             <h1 className="AR-heading">Try Our SMP AR Filter! </h1>
             <p className="ar-text ">
