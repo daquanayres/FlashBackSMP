@@ -5,6 +5,8 @@ import Welcome from "./Welcome.js";
 import FAQs from "./FAQs.js";
 import WhatSMPCanFix from "./WhatSMPCanFix.js";
 import AR_trySMP from "./AR_trySMP.js";
+import ContactUs from "./ContactUs.js";
+
 //import './App.css';
 
 function App() {
@@ -55,6 +57,7 @@ function App() {
       </div>
 
       <FAQs />
+      <ContactUs />
       <div className="Contact-Us">
         <form>
           <h3 className="">Send Us A Message</h3>
