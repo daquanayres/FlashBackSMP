@@ -1,15 +1,15 @@
-import logo from "./FlashBackSMP200x100.png";
+import logo from "./FlashBackSMP300x200.png";
 import React from "react";
-import { Col, Container, Row, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Header() {
   return (
-    <Container fluid className="">
+    <Container fluid>
       <Navbar
         bg="transparent"
         variant="dark"
         expand="xl"
-        className="App-header"
+        className="App-header justify-content-center"
       >
         <Navbar.Brand href="#home">
           <Nav.Link href="/logo">

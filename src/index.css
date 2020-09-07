@@ -18,9 +18,6 @@ code {
 .App-logo {
 }
 
-.AR-Window {
-  background-color: #0e94c7;
-}
 .welcome-jumbotron {
   background-color: #a4ce52 !important;
 }
@@ -33,33 +30,9 @@ code {
 }
 .WhatIsSMP {
   background-color: #eba23c;
-  padding-bottom: 20px;
+  margin-top: 30px;
+  padding: 100px 20px 20px 20px;
   margin-bottom: 20px;
-}
-.cards {
-  margin: 20px 20px 20px 20px;
-  padding: 20px 20px 20px 20px;
-}
-
-.Card-Title .Card-IMGs {
-  display: flex !important;
-  justify-content: center !important;
-}
-.WhatSMPCanFix-heading {
-  display: flex !important;
-  justify-content: center !important;
-}
-.WhatSMPCanFix-button {
-  margin-left: 740px;
-}
-.WhatSMPCanFix-css {
-  background-color: #de0f77;
-  padding-bottom: 40px;
-  margin-bottom: 20px;
-}
-.Fixes {
-  border: solid;
-  border-radius: 20%;
 }
 
 .Reviews {
@@ -79,8 +52,24 @@ code {
 }
 .Contact-Us {
   background-color: #0e94c7;
+  margin-top: 20px;
 }
-
+.Contact-Us-Heading {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.Contact-Us-Form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-Inputs {
+  width: 50%;
+}
+.form-Btn {
+  margin-left: 45%;
+}
 .Map {
   background-color: #a4ce52;
 }
@@ -99,7 +88,6 @@ code {
   margin-right: auto;
   color: #a4ce52 !important;
   text-shadow: 2px 2px 4px #000000;
-  z-index: ;
 }
 
 .header-links:hover {
@@ -110,8 +98,10 @@ code {
   z-index: 1;
 }
 .AR-Window {
+  background-color: #0e94c7;
   z-index: 2;
   height: 400px;
+  margin-bottom: 20px;
 }
 
 .ar-text {
@@ -131,4 +121,36 @@ code {
 }
 .AR-heading {
   margin-left: 190px;
+}
+
+.WhatSMPCanFix-heading {
+  display: flex !important;
+  justify-content: center !important;
+}
+.WhatSMPCanFix-button {
+  margin-left: 810px;
+}
+.WhatSMPCanFix-css {
+  background-color: #de0f77;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+.cards {
+  padding: 20px 40px 20px 20px;
+  margin-left: 40px;
+}
+.Card-IMGs {
+  border-style: solid;
+  border-radius: 100% !important;
+  border-color: #a4ce52;
+  border-width: 5px 5px 5px 5px;
+  width: 300px;
+  height: 300px;
+  padding-left: 10px;
+  display: flex !important;
+  justify-content: center !important;
+}
+.Card-Title {
+  display: flex !important;
+  justify-content: center !important;
 }
