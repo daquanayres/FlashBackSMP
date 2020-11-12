@@ -702,3 +702,6 @@
 [0905/205515.223:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0906/131841.524:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0906/194054.672:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0907/012216.845:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0913/124349.056:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/004900.764:ERROR:crash_report_database_win.cc(469)] failed to stat report

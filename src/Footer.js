@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Form } from "react-bootstrap";
+import { Row, Col, Container, Form, ListGroup } from "react-bootstrap";
 import logo from "./FlashBackSMP300x200.png";
 
 function Footer() {
@@ -7,29 +7,61 @@ function Footer() {
     <Container fluid>
       <div className="Footer">
         <Row>
-          <Col>
-            <img src={logo} className="Footer-Logo" alt="logo" />
+          <Col md="auto">
+            <img src={logo} className="footer-Logo " alt="logo" />
           </Col>
-          <Col>
+          <Col className="footer-address text-center">
             <a href="#" target="_blank">
-              FLASHBACKSMP
-            </a>
-            <br></br>
-            <a href="#" target="_blank">
+              FLASHBACK SMP
+              <br></br>
               12348 Sunset blvd
-            </a>
-            <br></br>
-            <a href="#" target="_blank">
+              <br></br>
               Hollywood, Fl 90028
             </a>
+            <br></br>
+            <a href="">
+              <u>Get Directions</u>
+            </a>
           </Col>
-          <Col className="Links"></Col>
+          <Col>
+            <ul className=" text-center">
+              <li>
+                <a href="">About Us</a>
+              </li>
+              <li>
+                <a href="">Schedule A Consultation</a>
+              </li>
+              <li>
+                <a href="">Portfolio</a>
+              </li>
+              <li>
+                <a href="">Endorsements</a>
+              </li>
 
-          <Col className="Subscription">
+              <li>
+                <a href="">FAQs</a>
+              </li>
+              <li>
+                <a href="">Get Directions</a>
+              </li>
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+              <li>
+                <a href="">Cart</a>
+              </li>
+            </ul>
+          </Col>
+
+          <Col xs="auto" className="Subscription">
             <h2>SIGN UP & SAVE</h2>
             <h4>Subscribe to get special offers and discounts!</h4>
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Label>Email:</Form.Label>
+            <Form.Control
+              type="email"
+              placeholder="Enter email address"
+              className="footer-emailInput"
+            />
             <br></br>
             <br></br>
             <img className="Socials" src="#" alt="Social-Instagram" />

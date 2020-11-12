@@ -64,18 +64,58 @@ code {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.form {
+}
 .form-Inputs {
   width: 50%;
+}
+
+.form-width60 {
+  width: 60% !important;
+}
+
+.form-width70 {
+  width: 70% !important;
+}
+.form-width90 {
+  width: 90% !important;
 }
 .form-Btn {
   margin-left: 45%;
 }
 .Map {
   background-color: #a4ce52;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Map-Address {
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: 200px;
+}
+.Directions-Btn {
+  margin-left: 47%;
 }
 
 .Footer {
   background-color: #de0f77;
+  margin-top: 20px;
+}
+.footer-logo {
+}
+.footer-address {
+  padding-top: 80px;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.footer-emailInput {
+  width: 80% !important;
 }
 .Socials {
   width: 20px;

@@ -8,6 +8,7 @@ import WhatSMPCanFix from "./WhatSMPCanFix.js";
 import AR_trySMP from "./AR_trySMP.js";
 import ContactUs from "./ContactUs.js";
 import Footer from "./Footer";
+import GetDirections from "./GetDirections";
 
 //import './App.css';
 
@@ -48,19 +49,7 @@ function App() {
 
       <FAQs />
       <ContactUs />
-
-      <br></br>
-      <div className="Map">
-        <div className="Map-Address">
-          <img className="Map-Pin" width="25px" height="25px" alt="Map-Pin" />
-          <p>
-            12348 Sunset blvd.<br></br>Hollywood,Fl 90028
-          </p>
-
-          <button className="Directions">Get Directions</button>
-        </div>
-      </div>
-      <br></br>
+      <GetDirections />
       <Footer />
     </div>
   );
